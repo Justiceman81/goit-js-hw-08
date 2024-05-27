@@ -2,11 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
+  padding: 24px 156px;
+  gap: 24px;
+  width: 1440px;
+  height: 696px;
+  box-sizing: border-box;
 }
 
 .gallery-item {
-  margin: 10px;
+  margin: 0px;
 }
 
 .gallery-link {
@@ -14,9 +18,8 @@
 }
 
 .gallery-image {
-  width: 200px;
-  height: auto;
-  border-radius: 5px;
+  width: 360px;
+  height: 200px;
   transition: transform 0.3s ease-in-out;
 }
 
